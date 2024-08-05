@@ -1,0 +1,446 @@
+
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    
+    
+    
+}
+
+
+
+
+
+
+
+.logo {
+    padding: 10px;
+    float:left; 
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.logo-footer {
+    padding: 0px;
+    float:left; 
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    background: url(background.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.bg {
+    background: rgb(203,98,217);
+background: linear-gradient(120deg, rgba(203,98,217,1) 0%, rgba(166,115,217,1) 29%, rgba(63,75,140,1) 63%, rgba(18,42,89,1) 100%);
+    
+}
+
+.title{
+
+    text-align: center;
+
+    color: white;
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 576px) {
+    .title{
+
+        text-align: center;
+    
+        color: white;
+       
+        position: absolute;
+     
+        left: 50%;
+        
+        transform: translate(-50%, -50%);
+    }
+}
+    
+
+nav {
+  
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    float: right;
+
+}
+
+nav ul {
+    padding: 0px;
+
+}
+
+nav ul li {
+    padding: 1px 20px;
+    
+   
+
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+
+    text-decoration: none;
+}
+
+
+
+nav ul li a {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+  }
+  nav ul li a:hover {
+    color: #ffffff;}
+  
+  nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  nav ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    color: #ffffff;
+  }
+ 
+  .navbar-collapse {
+    flex-direction: row-reverse;
+    background: #7864bae6;
+    border-radius: 15px;
+  }
+  .navbar{
+
+    --bs-navbar-padding-y: 1.5rem;
+    --bs-navbar-toggler-focus-width: 0.10rem;
+  }
+  .navbar-dark {
+    --bs-navbar-color: rgba(255, 255, 255, 1);
+    padding: 10px;
+    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 1);
+  }
+  .collapse:not(.show) {
+    display: none;
+    background: transparent;
+}
+
+
+
+  h1 {
+    font-size:7vw;
+  }
+
+  h2 {
+    font-size: 4vw;
+  }
+  h3 {
+ 
+  }
+  p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .btn-warning {
+    font-weight: 700;
+    margin-top: 15px;
+
+    border-radius: 23px;
+    padding: 9px 46px;
+    background: rgb(255,255,0);
+    background: linear-gradient(180deg, rgba(255,255,0,1) 0%, rgba(250,204,34,1) 100%);
+
+  }
+
+  .btn-warning:hover {
+    font-weight: 700;
+    margin-top: 15px;
+
+    border-radius: 23px;
+    padding: 9px 46px;
+    background: rgb(255,255,0);
+    background: linear-gradient(180deg, rgb(255 255 138) 0%, rgb(255 236 166) 100%);
+
+  }
+
+
+  .btn-outline-light {
+    color: white;
+    border: solid 2px white;
+    margin-top: 30px;
+    padding: 9px 46px;
+
+  }
+
+  .btn-outline-light:hover {
+    color: #4d5297;
+    background-color: white;
+    border: solid 2px white;
+
+
+  }
+ 
+
+
+
+  .short-card {
+
+
+    text-align: center;
+    color: white;
+
+    border-radius: 15px;
+    border: white solid 2px;
+
+  }
+
+
+  .short-card:hover {
+
+    color: #4d5297;
+  
+    border-radius: 15px;
+    border: white solid 2px;
+    background-color: white;
+
+  }
+  .short-card2 {
+
+
+    text-align: center;
+    color: white;
+    border: white solid 2px;
+    
+    position:relative;
+    width: 100%;
+    padding-bottom: 100%;
+
+  border-radius:50%;
+
+
+   
+
+  }
+
+
+  .short-card2:hover {
+
+    color: #4d5297; 
+    border: white solid 2px;
+    background-color: white;
+    position:relative;
+    width: 100%;
+    padding-bottom: 100%;
+
+  border-radius:50%;
+
+  }
+
+
+
+  .sub-title {
+
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+  }
+  .sub-title-2 {
+
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: fit-content;
+    
+  }
+  .sub-title-3 {
+
+    text-align: center;
+    color:#20366b;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    
+  }
+  .sub-title-left {
+
+   
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .section-2 {
+
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    
+  
+  }
+
+  .icon {
+
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .icon2 {
+
+    position:absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+  }
+
+  .business-title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .business-title-ex {
+    text-align: center;
+    font-size: 19px;
+  
+    line-height: 26px;
+  }
+  .business-title2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: white;
+  }
+
+  .header {
+    display: flex;
+  }
+
+
+
+
+  .mission {
+    color: white;
+  }
+
+  .sub-banner{
+    /* background-image: url(sub-banner.png);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+    
+    
+   
+  }
+  .section-3 {
+
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+  }
+  .section-4 {
+    background-image: url(technology-banner.jpg);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding-top: 20px;
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+  }
+
+  .content {
+   
+    margin-bottom: 10%;
+    margin-top: 10%;
+   
+  }
+
+  .navbar-collapse {
+   
+   
+    flex-direction: row-reverse;
+  }
+
+
+  .partners-company {
+
+  
+    height: 100%;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56%;
+
+
+  }
+  .pt-img{
+
+
+  position:absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+}
+
+.section-6 {
+
+    background: rgb(227,198,240);
+background: linear-gradient(90deg, rgba(227,198,240,1) 0%, rgba(164,173,193,1) 100%);
+}
+
+.address{
+
+   color: white;
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #ffffff!important;
+}
+a {
+    color: var(--bs-link-color);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
